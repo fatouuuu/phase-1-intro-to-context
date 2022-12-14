@@ -58,18 +58,6 @@ function allWagesFor(record){
     return wage
 }
 
-// function allWagesFor(employee){
-//     let workDates = employee.timeInEvents.map(function(e){
-//         return e.date
-//     })
-
-//     let pay_amount = workDates.reduce(function(date){
-//         return wagesEarnedOnDate(employee, date)
-//     }, 0)
-
-//     return pay_amount
-// }
-
 function findEmployeeByFirstName(employeeRecords, firstName) {
     return employeeRecords.find(function(record){
       return record.firstName === firstName
